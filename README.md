@@ -26,17 +26,17 @@ This repository contains my submission for the Data Internship ETL & Insight Cha
 ## 📂 Folder Structure
 
 Social_ads_Pipeline/
-├── data/
-│ ├── social_ads.csv ← Raw dataset
-│ └── cleaned_social_ads.csv ← Transformed dataset (with AgeGroup)
-├── etl_pipeline.py ← ETL processing script
-├── insights.py ← Visualizations and data insights
-├── requirements.txt ← List of required Python packages
-├── README.md ← Project documentation (this file)
-├── purchase_distribution.png ← Chart: Purchase count
-├── age_vs_purchase.png ← Chart: Age distribution by purchase
-├── salary_vs_purchase.png ← Chart: Salary distribution by purchase
-└── agegroup_purchase_rate.png ← Chart: Purchase rate by AgeGroup
+data/
+social_ads.csv ← Raw dataset
+cleaned_social_ads.csv ← Transformed dataset (with AgeGroup)
+etl_pipeline.py ← ETL processing script
+insights.py ← Visualizations and data insights
+requirements.txt ← List of required Python packages
+README.md ← Project documentation (this file)
+purchase_distribution.png ← Chart: Purchase count
+age_vs_purchase.png ← Chart: Age distribution by purchase
+salary_vs_purchase.png ← Chart: Salary distribution by purchase
+agegroup_purchase_rate.png ← Chart: Purchase rate by AgeGroup
 
 
 ## 🔄 ETL Pipeline Overview (`etl_pipeline.py`)
